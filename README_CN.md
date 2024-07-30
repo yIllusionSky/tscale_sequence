@@ -25,50 +25,34 @@ t刻度数列定义很简单，根据定义来看，斐波拉契数列和广义�
 所有beta必须满足大于等于0，至少有一个beta大于0。
 
 对于beta都等于1的情况，叫做标准t刻度数组
-$$
-\dim a_1,a_2,..,a_n \quad a\in R  \\
-a_t=\sum_{i=1}^n \beta_{i} a_{t-i} \quad t>n,a_t\not ={0}\\
-    \forall i, \ \beta_i \geq 0 \quad \text{and} \quad \exists i, \ \beta_i > 0
-$$
+$$\dim a_1,a_2,..,a_n \quad a\in R$$
+
+$$a_t=\sum_{i=1}^n \beta_{i} a_{t-i} \quad t>n,a_t\not ={0}$$
+$$\forall i, \ \beta_i \geq 0 \quad \text{and} \quad \exists i, \ \beta_i > 0$$
 
 #### 性质
 无论你取什么初始值，当这个序列长度趋于无穷的时候，上一个元素与当前元素的比值为一个常数值，且这个常数值只受beta影响。
 
 我们可以得到下列的定理
 
-$$
-\lim_{t \to +\infty} \frac{a_t}{a_{t-1}}= C
-\\
-\sum \beta_i > 1 \implies 1 < C < 2
-\\
-\sum \beta_i < 1 \implies 0 < C < 1
-\\
-\sum \beta_i = 1 \implies C = 1
-$$
+$$\lim_{t \to +\infty} \frac{a_t}{a_{t-1}}= C$$
+$$\sum \beta_i > 1 \implies 1 < C < 2$$
+$$\sum \beta_i < 1 \implies 0 < C < 1$$
+$$\sum \beta_i = 1 \implies C = 1$$
 
 继续推导，令r=C可以得到下面公式
 
-$$
-\lim_{t \to +\infty} a_t=ra_{t-1} = r^{n} a_{t-n}  \\
-\because \lim_{t \to +\infty} \frac{a_t}{a_{t-1}}= r \\
+$$\lim_{t \to +\infty} a_t=ra_{t-1} = r^{n} a_{t-n}  $$
+$$\because \lim_{t \to +\infty} \frac{a_t}{a_{t-1}}= r$$
 
-\therefore \lim_{t \to +\infty} \frac{
-    \sum_{i=1}^n \beta_i r^{n-i} a_{t-n}
-}{r^{n-1} a_{t-n}}=r    \\
-$$
+$$\therefore \lim_{t \to +\infty} \frac{\sum_{i=1}^n \beta_i r^{n-i} a_{t-n}}{r^{n-1} a_{t-n}}=r$$
 
 
 在beta=1的情况下化简得到：
-$$
-   when \quad \beta =1
-    \\
-    r=2-r^{-n}
-$$
+$$when \quad \beta =1$$
+$$r=2-r^{-n}$$
 在beta不为1的情况下化简得到：
 
-$$
-\lim_{t \to +\infty} 
-    \sum_{i=1}^n \beta_i r^{1-i} a_{t-n}=r
-$$
+$$\lim_{t \to +\infty} \sum_{i=1}^n \beta_i r^{1-i} a_{t-n}=r$$
 
 两种化简均可通过牛顿法解出最终答案
