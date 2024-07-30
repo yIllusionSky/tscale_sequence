@@ -21,6 +21,7 @@ Define a new sequence, called t-scale-sequence. It measures the relationship bet
 The definition of the t-scale sequence is very simple. According to the definition, the Fibonacci sequence and the generalized Fibonacci sequence are both cases of the t-scale sequence.
 
 #### Formula
+
 Given any sequence, each time starting from the previous element, take elements equal to the length of the initial sequence, find their sum, and use this sum as the new value.
 
 The initial sequence can take on any value. But it should be noted that the subsequent new value cannot be equal to 0 through calculation.
@@ -35,6 +36,7 @@ $$a_t=\sum_{i=1}^n \beta_{i} a_{t-i} \quad t>n,a_t\not ={0}$$
 $$\forall i, \ \beta_i \geq 0 \quad \text{and} \quad \exists i, \ \beta_i > 0$$
 
 #### Properties
+
 No matter what initial value you take, when the length of the sequence approaches infinity, the ratio of the previous element to the current element is a constant value, and this constant value is only affected by beta.
 
 We can get the following theorem
