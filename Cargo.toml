@@ -1,0 +1,14 @@
+[package]
+name = "tscale_sequence"
+version = "0.1.0"
+edition = "2021"
+authors = ["YaolinQing <d161442079@163.com>"]
+license = "MIT"
+keywords = ["gamedev", "math"]
+description = "A library for generating tscale sequences."
+readme = "README.md"
+repository = "https://github.com/yIllusionSky/tscale_sequence"
+homepage = "https://github.com/yIllusionSky/tscale_sequence"
+
+[dependencies]
+approximately = "1.0.0"
