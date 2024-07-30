@@ -14,6 +14,7 @@ Define a new sequence, called t-scale-sequence. It measures the relationship bet
 >
 > Through the t-scale sequence, we can use the influence coefficient to roughly evaluate the relationship between the birth rate of the previous year and the birth rate of the next year.
 >
+> When the year tends to infinity (actually, there is an obvious ratio only after a few years, and it does not need to tend to infinity), there will be an obvious coefficient ratio between the number of people born in the previous year and the number of people born this year.
 
 ## Definition
 

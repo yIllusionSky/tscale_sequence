@@ -9,7 +9,7 @@
 //!
 //! The goal is to obtain the newborn sequence and roughly evaluate the coefficient relationship between the number of newborns and the previous year's newborns.
 
-use tscale_sequence::{tscale_rate::compute_limit_rate, tscale_sequence::{compute_rate_with_data, TScale}};
+use tscale_sequence::{tscale_rate::compute_limit_rate, tscale_sequence:: TScale};
 
 fn main() {
     let start_people = [1.0, 1.0, 1.0, 1.0, 1.0];
@@ -19,11 +19,13 @@ fn main() {
 
     let tscale = TScale::new_with_config(start_people, weight);
 
-    tscale
+    let population=tscale
         .into_iter()
         .take(100)
-        .enumerate()
-        .for_each(|(i, v)| println!("the {i} round:{v}"));
-    let v=compute_rate_with_data(50, start_people, weight).last().unwrap();
-    println!("after round rate:{v}");
+        .last().unwrap();
+
+    println!("the 50 round population is {population}");
+    // if you want to know after 100 round population
+    println!("the 100 round population is {}",rate.powf(50.0)*population);
+
 }
