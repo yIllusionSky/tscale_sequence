@@ -22,7 +22,7 @@ impl<const C: usize> Default for TScale<f64, C> {
     }
 }
 
-impl<T, const C: usize> TScale<T, C>
+impl<T:Debug, const C: usize> TScale<T, C>
 where
     Self: Default,
 {
@@ -42,16 +42,6 @@ where
             weight
         }
     }
-
-    // BUG! this function reverse not work
-    // If fix the bug, in iterator, you array must be front not reverse
-    // pub fn new_with_config(mut array: [T; C], weight: [T; C]) -> Self {
-    //     array.reverse();
-    //     Self {
-    //         array,
-    //         weight
-    //     }
-    // }
 
     /// into iterator
     pub fn iter(&mut self) -> TScaleIter<'_, T, C> {
