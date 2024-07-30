@@ -4,7 +4,7 @@
 
 **[Chinese](README_CN.md)**
 
-I haven't found this sequence online yet. I accidentally discovered it when I encountered a need while playing a game. I'm not a mathematician. If you have any questions, I hope you can give me some advice.
+I accidentally discovered it when I encountered a need while playing a game. I'm not a mathematician. If you have any questions, I hope you can give me some advice.
 
 Define a new sequence, called t-scale-sequence. It measures the relationship between a number of continuous factors. Below is an example of it.
 
