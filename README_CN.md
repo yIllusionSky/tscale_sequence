@@ -50,8 +50,10 @@ $$\therefore \lim_{t \to +\infty} \frac{\sum_{i=1}^n \beta_i r^{n-i} a_{t-n}}{r^
 
 
 在beta=1的情况下化简得到：
+
 $$when \quad \beta =1$$
 $$r=2-r^{-n}$$
+
 在beta不为1的情况下化简得到：
 
 $$\lim_{t \to +\infty} \sum_{i=1}^n \beta_i r^{1-i} a_{t-n}=r$$
