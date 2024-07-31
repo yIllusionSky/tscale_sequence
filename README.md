@@ -33,6 +33,7 @@ For the case where beta is equal to 1, it is called a standard t scale array.
 $$\dim a_1,a_2,..,a_n \quad a\in R$$
 
 $$a_t=\sum_{i=1}^n \beta_{i} a_{t-i} \quad t>n,a_t\not ={0}$$
+
 $$\forall i, \ \beta_i \geq 0 \quad \text{and} \quad \exists i, \ \beta_i > 0$$
 
 #### Properties
@@ -42,12 +43,15 @@ No matter what initial value you take, when the length of the sequence approache
 We can get the following theorem
 
 $$\lim_{t \to +\infty} \frac{a_t}{a_{t-1}}= C$$
+
 $$\sum \beta_i < 1 \implies 0 < C < 1$$
+
 $$\sum \beta_i = 1 \implies C = 1$$
 
 Continue the derivation and let r=C to get the following formula
 
 $$\lim_{t \to +\infty} a_t=ra_{t-1} = r^{n} a_{t-n}  $$
+
 $$\because \lim_{t \to +\infty} \frac{a_t}{a_{t-1}}= r$$
 
 $$\therefore \lim_{t \to +\infty} \frac{\sum_{i=1}^n \beta_i r^{n-i} a_{t-n}}{r^{n-1} a_{t-n}}=r$$
@@ -55,6 +59,7 @@ $$\therefore \lim_{t \to +\infty} \frac{\sum_{i=1}^n \beta_i r^{n-i} a_{t-n}}{r^
 Simplifying when beta=1 we get:
 
 $$when \quad \beta =1$$
+
 $$r=2-r^{-n}$$
 
 Simplifying when beta is not 1 we get:

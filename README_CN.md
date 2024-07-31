@@ -31,6 +31,7 @@ t刻度数列定义很简单，根据定义来看，斐波拉契数列和广义�
 $$\dim a_1,a_2,..,a_n \quad a\in R$$
 
 $$a_t=\sum_{i=1}^n \beta_{i} a_{t-i} \quad t>n,a_t\not ={0}$$
+
 $$\forall i, \ \beta_i \geq 0 \quad \text{and} \quad \exists i, \ \beta_i > 0$$
 
 #### 性质
