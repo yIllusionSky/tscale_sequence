@@ -38,6 +38,8 @@ $$\forall i, \ \beta_i \geq 0 \quad \text{and} \quad \exists i, \ \beta_i > 0$$
 
 无论你取什么初始值，当这个序列长度趋于无穷的时候，上一个元素与当前元素的比值为一个常数值，且这个常数值只受beta影响。
 
+也就是说当序列长度趋于无穷的时候，后面的新的子序列可以看作一个等比数列。
+
 我们可以得到下列的定理
 
 $$\lim_{t \to +\infty} \frac{a_t}{a_{t-1}}= C$$
@@ -50,9 +52,7 @@ $$\sum \beta_i > 1 \implies C > 1$$
 
 继续推导，令r=C可以得到下面公式
 
-$$\lim_{t \to +\infty} a_t=ra_{t-1} = r^{n} a_{t-n}  $$
-
-$$\because \lim_{t \to +\infty} \frac{a_t}{a_{t-1}}= r$$
+$$ \lim_{t \to +\infty} \frac{a_t}{a_{t-1}}= r$$
 
 $$\therefore \lim_{t \to +\infty} \frac{\sum_{i=1}^n \beta_i r^{n-i} a_{t-n}}{r^{n-1} a_{t-n}}=r$$
 
