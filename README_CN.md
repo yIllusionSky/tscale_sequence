@@ -47,6 +47,7 @@ $$\sum \beta_i = 1 \implies C = 1$$
 继续推导，令r=C可以得到下面公式
 
 $$\lim_{t \to +\infty} a_t=ra_{t-1} = r^{n} a_{t-n}  $$
+
 $$\because \lim_{t \to +\infty} \frac{a_t}{a_{t-1}}= r$$
 
 $$\therefore \lim_{t \to +\infty} \frac{\sum_{i=1}^n \beta_i r^{n-i} a_{t-n}}{r^{n-1} a_{t-n}}=r$$
@@ -55,6 +56,7 @@ $$\therefore \lim_{t \to +\infty} \frac{\sum_{i=1}^n \beta_i r^{n-i} a_{t-n}}{r^
 在beta=1的情况下化简得到：
 
 $$when \quad \beta =1$$
+
 $$r=2-r^{-n}$$
 
 在beta不为1的情况下化简得到：
