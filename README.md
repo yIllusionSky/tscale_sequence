@@ -64,6 +64,6 @@ $$r=2-r^{-n}$$
 
 Simplifying when beta is not 1 we get:
 
-$$\lim_{t \to +\infty} \sum_{i=1}^n \beta_i r^{1-i} a_{t-n}=r$$
+$$\lim_{t \to +\infty} \sum_{i=1}^n \beta_i r^{1-i}=r$$
 
 Both simplifications can be solved by Newton's method to get the final answer

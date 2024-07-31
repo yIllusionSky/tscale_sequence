@@ -65,6 +65,6 @@ $$r=2-r^{-n}$$
 
 在beta不为1的情况下化简得到：
 
-$$\lim_{t \to +\infty} \sum_{i=1}^n \beta_i r^{1-i} a_{t-n}=r$$
+$$\lim_{t \to +\infty} \sum_{i=1}^n \beta_i r^{1-i}=r$$
 
 两种化简均可通过牛顿法解出最终答案
