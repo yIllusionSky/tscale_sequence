@@ -40,7 +40,6 @@ $$\forall i, \ \beta_i \geq 0 \quad \text{and} \quad \exists i, \ \beta_i > 0$$
 我们可以得到下列的定理
 
 $$\lim_{t \to +\infty} \frac{a_t}{a_{t-1}}= C$$
-$$\sum \beta_i > 1 \implies 1 < C < 2$$
 $$\sum \beta_i < 1 \implies 0 < C < 1$$
 $$\sum \beta_i = 1 \implies C = 1$$
 

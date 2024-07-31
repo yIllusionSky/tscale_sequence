@@ -42,7 +42,6 @@ No matter what initial value you take, when the length of the sequence approache
 We can get the following theorem
 
 $$\lim_{t \to +\infty} \frac{a_t}{a_{t-1}}= C$$
-$$\sum \beta_i > 1 \implies 1 < C < 2$$
 $$\sum \beta_i < 1 \implies 0 < C < 1$$
 $$\sum \beta_i = 1 \implies C = 1$$
 
