@@ -48,6 +48,8 @@ $$\sum \beta_i < 1 \implies 0 < C < 1$$
 
 $$\sum \beta_i = 1 \implies C = 1$$
 
+$$\sum \beta_i > 1 \implies C > 1$$
+
 Continue the derivation and let r=C to get the following formula
 
 $$\lim_{t \to +\infty} a_t=ra_{t-1} = r^{n} a_{t-n}  $$
