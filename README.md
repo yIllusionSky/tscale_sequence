@@ -34,7 +34,7 @@ $$\dim a_1,a_2,..,a_n \quad a\in R$$
 
 $$a_t=\sum_{i=1}^n \beta_{i} a_{t-i} \quad t>n,a_t\not ={0}$$
 
-$$\forall i, \ \beta_i \geq 0 \quad \text{and} \quad \exists i, \ \beta_i > 0$$
+$$\forall i, \ \beta_i > 0 \quad$$
 
 #### Properties
 
